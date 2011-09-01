@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B200CFD-DE16-4735-93A9-960D5757A72C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WordListW</RootNamespace>
+    <AssemblyName>WordListW</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\HP\Desktop\WordList2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/WordListW/</UpdateUrl>
+    <MinimumRequiredVersion>1.0.0.5</MinimumRequiredVersion>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>93FEAED904045FC6B8F90651B283CD9BC533A8A1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WordListW_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.UI, Version=1.3.10226.10060, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+    <Reference Include="Xceed.Wpf.Controls.v4.0, Version=4.0.10417.16400, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.1.v4.0, Version=4.0.10417.16400, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.2.v4.0, Version=4.0.10417.16400, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.3.v4.0, Version=4.0.10417.16400, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+    <Reference Include="Xceed.Wpf.DataGrid.v4.0, Version=4.0.10417.16400, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+    <Reference Include="Xceed.Wpf.DataGrid.Views3D.v4.0, Version=4.0.10417.16400, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controls\AutoCompleteTextBox.xaml.cs">
+      <DependentUpon>AutoCompleteTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FocusWords.xaml.cs">
+      <DependentUpon>FocusWords.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HomoPhone.xaml.cs">
+      <DependentUpon>HomoPhone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LinkButton.xaml.cs">
+      <DependentUpon>LinkButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MyList.xaml.cs">
+      <DependentUpon>MyList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WordAdmin.xaml.cs">
+      <DependentUpon>WordAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WordIterator.xaml.cs">
+      <DependentUpon>WordIterator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WordPanel.xaml.cs">
+      <DependentUpon>WordPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WordPanelOnly.xaml.cs">
+      <DependentUpon>WordPanelOnly.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WordTab.xaml.cs">
+      <DependentUpon>WordTab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Core\AvailableWords.cs" />
+    <Compile Include="Core\Homophones.cs" />
+    <Compile Include="Core\Word.cs" />
+    <Compile Include="Core\WDictionary.cs" />
+    <Compile Include="Core\WordListIterator.cs" />
+    <Compile Include="Core\WordListMultipleMeaning.cs" />
+    <Compile Include="Core\WordRelation.cs" />
+    <Compile Include="Dao\CsvSetDao.cs" />
+    <Compile Include="Dao\HomonymDao.cs" />
+    <Compile Include="Dao\IWordDao.cs" />
+    <Compile Include="Dao\SynonymDao.cs" />
+    <Compile Include="Dao\WordDaoImpl.cs" />
+    <Compile Include="db\WordsDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WordsDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveInFuture\DbSource.cs" />
+    <Compile Include="Utils\CsvUtils.cs" />
+    <Compile Include="Utils\DbUtils.cs" />
+    <Compile Include="Utils\DbUtils2.cs" />
+    <Compile Include="Utils\ExcelUtils.cs" />
+    <Compile Include="Utils\MakeSet.cs" />
+    <Compile Include="Utils\TextUtils.cs" />
+    <Compile Include="Utils\wordweightpair.cs" />
+    <Compile Include="WordATime.xaml.cs">
+      <DependentUpon>WordATime.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Controls\AutoCompleteTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\FocusWords.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\HomoPhone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LinkButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\MyList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Search.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\WordAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\WordIterator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\WordPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\WordPanelOnly.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\WordTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Resources\GlassButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WordATime.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="db\WordsDBDataSet.xsc">
+      <DependentUpon>WordsDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db\WordsDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WordsDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db\WordsDBDataSet.xss">
+      <DependentUpon>WordsDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="WordListW_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\ff.png" />
+    <Resource Include="Images\rw.png" />
+    <Resource Include="Images\stop.png" />
+    <Resource Include="Images\vista_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\rigveda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\500px-Speaker_Icon_svgerer.gif" />
+    <Resource Include="Images\istockphoto_4815767-speaker-icon.jpg" />
+    <Resource Include="Images\redSpeaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\rw1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\dictionary_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DicD.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="db\WordsDB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
