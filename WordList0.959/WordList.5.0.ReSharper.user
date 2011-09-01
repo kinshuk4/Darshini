@@ -1,0 +1,787 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="cmdMyQuery" priority="2" />
+      <Item value="oleDbParameter" priority="0" />
+      <Item value="public" priority="95" />
+      <Item value="static" priority="39" />
+      <Item value="void" priority="36" />
+      <Item value="List" priority="83" />
+      <Item value="Word`0" priority="63" />
+      <Item value="foreach" priority="32" />
+      <Item value="Console`0" priority="8" />
+      <Item value="word" priority="32" />
+      <Item value="new" priority="61" />
+      <Item value="string" priority="107" />
+      <Item value="int" priority="22" />
+      <Item value="String`0" priority="29" />
+      <Item value="N" priority="0" />
+      <Item value="if" priority="35" />
+      <Item value="sameWordDiffMeaning" priority="5" />
+      <Item value="null" priority="12" />
+      <Item value="try" priority="11" />
+      <Item value="catch" priority="12" />
+      <Item value="Exception`0" priority="13" />
+      <Item value="lblTryAgain" priority="4" />
+      <Item value="txtSearch" priority="3" />
+      <Item value="finally" priority="4" />
+      <Item value="wordDao" priority="9" />
+      <Item value="printWordList`0" priority="7" />
+      <Item value="wordList" priority="11" />
+      <Item value="Visibility" priority="1" />
+      <Item value="private" priority="38" />
+      <Item value="return" priority="26" />
+      <Item value="unmasteredWords" priority="4" />
+      <Item value="value" priority="6" />
+      <Item value="unmasteredWordList" priority="0" />
+      <Item value="WordDaoImpl`0" priority="10" />
+      <Item value="List&lt;Word&gt;" priority="6" />
+      <Item value="Word2Master`0" priority="2" />
+      <Item value="IWordDao`0" priority="2" />
+      <Item value="dgWordsToMaster" priority="0" />
+      <Item value="prop" priority="2" />
+      <Item value="ctor" priority="0" />
+      <Item value="SQL_GET_ALL_UNMASTERED_WORD" priority="0" />
+      <Item value="getAllUnMasteredWords`0" priority="0" />
+      <Item value="Count" priority="3" />
+      <Item value="word2Master" priority="2" />
+      <Item value="wordsOnlyList" priority="0" />
+      <Item value="Word2Master" priority="0" />
+      <Item value="UnmasteredCount" priority="2" />
+      <Item value="lblWord" priority="0" />
+      <Item value="wordDictionary" priority="15" />
+      <Item value="lblTotalWordCount" priority="0" />
+      <Item value="lblMasteredWordCount" priority="0" />
+      <Item value="focusList" priority="0" />
+      <Item value="WordCommand2`0" priority="0" />
+      <Item value="WordCommand2" priority="0" />
+      <Item value="newWindow" priority="0" />
+      <Item value="gridOneWordAtTime" priority="0" />
+      <Item value="DataRelation`0" priority="0" />
+      <Item value="provider" priority="3" />
+      <Item value="DataTable`0" priority="1" />
+      <Item value="excelData" priority="0" />
+      <Item value="source" priority="0" />
+      <Item value="extended" priority="1" />
+      <Item value="DataRow`0" priority="4" />
+      <Item value="dr_" priority="5" />
+      <Item value="System" priority="5" />
+      <Item value="DBNull`0" priority="2" />
+      <Item value="is" priority="0" />
+      <Item value="NotFiniteNumberException`0" priority="0" />
+      <Item value="typeof" priority="3" />
+      <Item value="continue" priority="4" />
+      <Item value="bool" priority="2" />
+      <Item value="false" priority="3" />
+      <Item value="flag" priority="0" />
+      <Item value="true" priority="5" />
+      <Item value="List&lt;string&gt;" priority="6" />
+      <Item value="homoList" priority="3" />
+      <Item value="homo" priority="0" />
+      <Item value="VARIABLE" priority="4" />
+      <Item value="processed" priority="1" />
+      <Item value="index" priority="3" />
+      <Item value="word1" priority="0" />
+      <Item value="word2" priority="4" />
+      <Item value="i" priority="3" />
+      <Item value="break" priority="4" />
+      <Item value="index2" priority="0" />
+      <Item value="path" priority="0" />
+      <Item value="dt_" priority="1" />
+      <Item value="wordFetched" priority="8" />
+      <Item value="smeaning" priority="1" />
+      <Item value="snote" priority="0" />
+      <Item value="listWord" priority="0" />
+      <Item value="MakingDicDb`0" priority="2" />
+      <Item value="insertWord`0" priority="0" />
+      <Item value="WordDaoImpl" priority="5" />
+      <Item value="dao" priority="8" />
+      <Item value="wordli" priority="0" />
+      <Item value="else" priority="8" />
+      <Item value="row_" priority="1" />
+      <Item value="synonym" priority="0" />
+      <Item value="synwords" priority="0" />
+      <Item value="s" priority="4" />
+      <Item value="trimmPerCsv" priority="4" />
+      <Item value="trimmedWord" priority="1" />
+      <Item value="MakeSynonymDB`0" priority="0" />
+      <Item value="add2SynoDb`0" priority="0" />
+      <Item value="listBox1" priority="0" />
+      <Item value="txtWord" priority="0" />
+      <Item value="in" priority="3" />
+      <Item value="dTable" priority="4" />
+      <Item value="using" priority="2" />
+      <Item value="Collections" priority="0" />
+      <Item value="IDictionary`0" priority="4" />
+      <Item value="Homophones`0" priority="9" />
+      <Item value="homophoneDic" priority="5" />
+      <Item value="Dictionary&lt;string,List&lt;string&gt;&gt;" priority="2" />
+      <Item value="words" priority="5" />
+      <Item value="restWords" priority="1" />
+      <Item value="restWord" priority="2" />
+      <Item value="csvHomoList" priority="8" />
+      <Item value="oneHomoSet" priority="9" />
+      <Item value="List&lt;List&lt;string&gt;&gt;" priority="0" />
+      <Item value="wholeHomoSet" priority="1" />
+      <Item value="Add`0" priority="1" />
+      <Item value="initialize`0" priority="1" />
+      <Item value="Homophones" priority="4" />
+      <Item value="text" priority="2" />
+      <Item value="hmp" priority="0" />
+      <Item value="stringList" priority="2" />
+      <Item value="OrdersGrid" priority="0" />
+      <Item value="initializeBackend`0" priority="0" />
+      <Item value="wordObj" priority="1" />
+      <Item value="lblWords2Master" priority="0" />
+      <Item value="lblWordsMastered" priority="0" />
+      <Item value="MessageBox`0" priority="28" />
+      <Item value="gridFocusWords" priority="7" />
+      <Item value="gridWordUsage" priority="0" />
+      <Item value="chkbxSelectAll" priority="2" />
+      <Item value="CheckBox" priority="4" />
+      <Item value="List&lt;CheckBox&gt;" priority="1" />
+      <Item value="as" priority="2" />
+      <Item value="CheckBox`0" priority="1" />
+      <Item value="e" priority="4" />
+      <Item value="bValue" priority="1" />
+      <Item value="Object`0" priority="1" />
+      <Item value="xdgFocusWords" priority="22" />
+      <Item value="selectedWord" priority="5" />
+      <Item value="ContextMenuProperty" priority="0" />
+      <Item value="chk" priority="1" />
+      <Item value="DataCell`0" priority="1" />
+      <Item value="sender" priority="9" />
+      <Item value="password" priority="1" />
+      <Item value="password2" priority="1" />
+      <Item value="WordATime`0" priority="4" />
+      <Item value="this" priority="12" />
+      <Item value="WordATime" priority="1" />
+      <Item value="currentWord" priority="12" />
+      <Item value="override" priority="0" />
+      <Item value="initializeUI`0" priority="1" />
+      <Item value="window" priority="0" />
+      <Item value="windowWordATime" priority="11" />
+      <Item value="WordDictionary`0" priority="1" />
+      <Item value="AvailableWords`0" priority="7" />
+      <Item value="wordIterator" priority="6" />
+      <Item value="WordIterator`0" priority="0" />
+      <Item value="focusWords" priority="2" />
+      <Item value="tbkWord" priority="3" />
+      <Item value="_word" priority="0" />
+      <Item value="HomoPhone`0" priority="0" />
+      <Item value="WordListW" priority="2" />
+      <Item value="Dao" priority="0" />
+      <Item value="HomonymDao`0" priority="3" />
+      <Item value="HomonymDao" priority="1" />
+      <Item value="xdgHomoPhones" priority="0" />
+      <Item value="_s_word" priority="0" />
+      <Item value="s_word_" priority="0" />
+      <Item value="wordPanel1" priority="3" />
+      <Item value="wordDictionary_" priority="0" />
+      <Item value="search1" priority="0" />
+      <Item value="getHomonymsForWord`0" priority="1" />
+      <Item value="wordListHomo" priority="2" />
+      <Item value="temp" priority="0" />
+      <Item value="hdao" priority="1" />
+      <Item value="Dictionary&lt;string,List&lt;Word&gt;&gt;" priority="0" />
+      <Item value="Application`0" priority="0" />
+      <Item value="Environment`0" priority="0" />
+      <Item value="App`0" priority="1" />
+      <Item value="checkBox" priority="0" />
+      <Item value="Xceed" priority="1" />
+      <Item value="Wpf" priority="1" />
+      <Item value="DataGrid" priority="1" />
+      <Item value="ColumnBase`0" priority="0" />
+      <Item value="clBase" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="c" priority="0" />
+      <Item value="row" priority="0" />
+      <Item value="wordTab1" priority="5" />
+      <Item value="SetFlowDirection`0" priority="0" />
+      <Item value="AdditionalInfo" priority="0" />
+      <Item value="wDictionary" priority="0" />
+      <Item value="WDictionary" priority="1" />
+      <Item value="HashSet&lt;string&gt;" priority="0" />
+      <Item value="HashSet" priority="0" />
+      <Item value="UnMasteredWordList" priority="2" />
+      <Item value="Word" priority="1" />
+      <Item value="getText`0" priority="0" />
+      <Item value="WordListIterator`0" priority="4" />
+      <Item value="wordList_" priority="3" />
+      <Item value="myIterator" priority="6" />
+      <Item value="WordListIterator" priority="0" />
+      <Item value="Current" priority="1" />
+      <Item value="WordList" priority="1" />
+      <Item value="cbxListSelector" priority="2" />
+      <Item value="AppDomainInitializer`0" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="2" />
+      <Item value="WordDictionary" priority="4" />
+      <Item value="setText`0" priority="0" />
+      <Item value="btnForward_Click`0" priority="0" />
+      <Item value="NumberOfWords" priority="0" />
+      <Item value="focusCounter" priority="0" />
+      <Item value="homoPhone1" priority="0" />
+      <Item value="hp" priority="3" />
+      <Item value="list" priority="2" />
+      <Item value="csvWords" priority="2" />
+      <Item value="homoPhoneSet" priority="1" />
+      <Item value="Dictionary&lt;string,int&gt;" priority="1" />
+      <Item value="homoPhoneWordSet" priority="4" />
+      <Item value="AvailableWords" priority="1" />
+      <Item value="wordlist" priority="0" />
+      <Item value="homonymDao" priority="0" />
+      <Item value="hd" priority="2" />
+      <Item value="IDictionary" priority="6" />
+      <Item value="fullHomoSet" priority="1" />
+      <Item value="keyValuePair" priority="2" />
+      <Item value="key" priority="0" />
+      <Item value="restOfWords`0" priority="0" />
+      <Item value="homophoneStringDic" priority="6" />
+      <Item value="sl3" priority="0" />
+      <Item value="KeyValuePair" priority="0" />
+      <Item value="LinkButton`0" priority="1" />
+      <Item value="List&lt;LinkButton&gt;" priority="0" />
+      <Item value="SynonymDao" priority="1" />
+      <Item value="button" priority="6" />
+      <Item value="NavigationWindow`0" priority="0" />
+      <Item value="LinkButton" priority="0" />
+      <Item value="buttons" priority="1" />
+      <Item value="SynonymDao`0" priority="0" />
+      <Item value="sd" priority="0" />
+      <Item value="getAllDictionarySet`0" priority="1" />
+      <Item value="colHomoList" priority="1" />
+      <Item value="getStringArr`0" priority="1" />
+      <Item value="colSynoList" priority="1" />
+      <Item value="Sql_GetAllSynonyms" priority="0" />
+      <Item value="CsvSetDao`0" priority="1" />
+      <Item value="cDao" priority="1" />
+      <Item value="CsvSetDao" priority="0" />
+      <Item value="ManipulateSet`0" priority="1" />
+      <Item value="synoWholeSet" priority="1" />
+      <Item value="synoStringDic" priority="1" />
+      <Item value="WordRelation`0" priority="1" />
+      <Item value="WordRelation" priority="0" />
+      <Item value="set" priority="0" />
+      <Item value="relation" priority="0" />
+      <Item value="stackSynonym" priority="2" />
+      <Item value="TextBlock`0" priority="1" />
+      <Item value="TextBlock" priority="1" />
+      <Item value="tb" priority="0" />
+      <Item value="Button`0" priority="3" />
+      <Item value="alfa" priority="4" />
+      <Item value="StaticResourceExtension`0" priority="1" />
+      <Item value="ResourceDictionary`0" priority="0" />
+      <Item value="Resources" priority="0" />
+      <Item value="FileStyleUriParser`0" priority="0" />
+      <Item value="Style`0" priority="0" />
+      <Item value="Style" priority="0" />
+      <Item value="style" priority="1" />
+      <Item value="Type`0" priority="0" />
+      <Item value="Setter`0" priority="0" />
+      <Item value="Setter" priority="0" />
+      <Item value="textBlock" priority="1" />
+      <Item value="Windows" priority="0" />
+      <Item value="DependencyProperty`0" priority="2" />
+      <Item value="btn" priority="1" />
+      <Item value="isSynonymPopulated" priority="1" />
+      <Item value="StackPanel`0" priority="1" />
+      <Item value="populateStack`0" priority="0" />
+      <Item value="stk" priority="1" />
+      <Item value="linkButton" priority="3" />
+      <Item value="CurrentWord" priority="4" />
+      <Item value="unchecked" priority="0" />
+      <Item value="UnMasteredWord" priority="1" />
+      <Item value="wordDic" priority="1" />
+      <Item value="unMasteredWordList" priority="3" />
+      <Item value="currWord" priority="0" />
+      <Item value="Window`0" priority="0" />
+      <Item value="wordATimeWin" priority="1" />
+      <Item value="UnboundColumn`0" priority="1" />
+      <Item value="FocusList" priority="0" />
+      <Item value="dataGrid" priority="0" />
+      <Item value="Grid2`0" priority="0" />
+      <Item value="Grid2" priority="0" />
+      <Item value="griWin" priority="0" />
+      <Item value="alfaDg" priority="1" />
+      <Item value="DataGridSelectionUnit`0" priority="0" />
+      <Item value="lblMessage" priority="0" />
+      <Item value="tbMeaning" priority="0" />
+      <Item value="tbInfo" priority="1" />
+      <Item value="tbkMeaning" priority="0" />
+      <Item value="tbkSentence" priority="0" />
+      <Item value="btnFind" priority="2" />
+      <Item value="WordPanel`0" priority="0" />
+      <Item value="wordPanel" priority="7" />
+      <Item value="WordPanel" priority="0" />
+      <Item value="stkWordDefinition" priority="8" />
+      <Item value="setPropertyOnPanel`0" priority="1" />
+      <Item value="wpanel" priority="2" />
+      <Item value="Properties" priority="0" />
+      <Item value="Settings`0" priority="0" />
+      <Item value="tblSentence" priority="1" />
+      <Item value="Delete" priority="0" />
+      <Item value="Down" priority="0" />
+      <Item value="lbxSuggestions" priority="0" />
+      <Item value="tbxAutoComplete" priority="0" />
+      <Item value="getAllWordsStarting`0" priority="0" />
+      <Item value="WordsNameOnlyList" priority="0" />
+      <Item value="Key`0" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="exception" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbCommand">
+      <Item value="Parameters" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbParameterCollection">
+      <Item value="AddWithValue`0" priority="1" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WindowHeight" priority="0" />
+      <Item value="WriteLine`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Core.Word">
+      <Item value="ToString`0" priority="0" />
+      <Item value="IsMastered" priority="4" />
+      <Item value="Word2" priority="6" />
+      <Item value="Meaning" priority="3" />
+      <Item value="AdditionalInfo" priority="1" />
+      <Item value="word2Text`0" priority="1" />
+      <Item value="Name" priority="2" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="Sentence" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Dao.IWordDao">
+      <Item value="getFirstNunmasteredWords`0" priority="0" />
+      <Item value="getWord`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Label">
+      <Item value="Content" priority="10" />
+      <Item value="Visibility" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Grid">
+      <Item value="Visibility" priority="0" />
+      <Item value="RowDefinitions" priority="0" />
+      <Item value="ColumnDefinitions" priority="0" />
+      <Item value="VerticalAlignment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Visibility">
+      <Item value="Visible" priority="1" />
+      <Item value="Hidden" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WordListW.Core.Word2Master">
+      <Item value="get15UnmasteredWords`0" priority="0" />
+      <Item value="getNUnmasteredWords`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.DataGrid">
+      <Item value="ItemsSource" priority="1" />
+      <Item value="SelectAll`0" priority="0" />
+      <Item value="Columns" priority="0" />
+      <Item value="SelectionUnit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="8" />
+      <Item value="Add`0" priority="12" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="GetRange`0" priority="0" />
+      <Item value="RemoveAll`0" priority="0" />
+      <Item value="RemoveRange`0" priority="0" />
+      <Item value="Sort`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Core.Word2Master">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Core.AvailableWords">
+      <Item value="Count" priority="0" />
+      <Item value="MasteredCount" priority="1" />
+      <Item value="UnMasteredCount" priority="0" />
+      <Item value="WordList" priority="4" />
+      <Item value="UnMasteredWordList" priority="2" />
+      <Item value="getNUnmasteredWords`0" priority="1" />
+      <Item value="getWord4Name`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="3" />
+      <Item value="toar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="ItemsSource" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.WordCommand2">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TestDic.MakingHomoPhoneDB">
+      <Item value="getStringList`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="5" />
+      <Item value="Trim`0" priority="10" />
+      <Item value="Substring`0" priority="3" />
+      <Item value="IndexOf`0" priority="1" />
+      <Item value="LastIndexOf`0" priority="0" />
+      <Item value="Equals`0" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="TrimEnd`0" priority="1" />
+      <Item value="Last`1" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WordListW.Utils.ExcelUtils">
+      <Item value="SQLSelect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TestDic.MakingDicDb">
+      <Item value="getAllWordsFromExcel`0" priority="0" />
+      <Item value="insertIntoDicDb`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Dao.WordDaoImpl">
+      <Item value="insertWordList`0" priority="0" />
+      <Item value="getAllWords`0" priority="1" />
+      <Item value="getFirstNunmasteredWords`0" priority="1" />
+      <Item value="getAllUnmasteredWords`0" priority="0" />
+      <Item value="updateNote`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TestDic.MakeSynonymDB">
+      <Item value="getAllWordsFromExcel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WordListW.Dao.HomonymDao">
+      <Item value="getHomonymsForWord`0" priority="0" />
+      <Item value="getAllHomonyms`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IDictionary`2">
+      <Item value="Add`0" priority="3" />
+      <Item value="ContainsKey`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Core.Homophones">
+      <Item value="getHomonymsForWord`0" priority="3" />
+      <Item value="getHomonymsWords`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Xceed.Wpf.DataGrid.DataGridControl">
+      <Item value="ItemsSource" priority="7" />
+      <Item value="Columns" priority="7" />
+      <Item value="DataContext" priority="2" />
+      <Item value="SelectedItem" priority="0" />
+      <Item value="SelectedItems" priority="4" />
+      <Item value="GlobalSelectedItems" priority="0" />
+      <Item value="SelectionMode" priority="0" />
+      <Item value="ContainerFromElement`0" priority="0" />
+      <Item value="Items" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="28" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Xceed.Wpf.DataGrid.ColumnBase">
+      <Item value="SetValue`0" priority="1" />
+      <Item value="FieldName" priority="1" />
+      <Item value="GetValue`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.MainWindow">
+      <Item value="gridFocusWords" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.CheckBox">
+      <Item value="IsChecked" priority="2" />
+      <Item value="SelectionChangedEventArgs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ColumnDefinitionCollection">
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ColumnDefinition">
+      <Item value="ContextMenu" priority="0" />
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ContextMenu">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.RoutedEventArgs">
+      <Item value="Source" priority="1" />
+      <Item value="Handled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Xceed.Wpf.DataGrid.ColumnCollection">
+      <Item value="Indexer" priority="0" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Xceed.Wpf.Controls.CheckBox">
+      <Item value="IsChecked" priority="3" />
+      <Item value="Checked" priority="0" />
+      <Item value="MouseDoubleClick" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.WordATime">
+      <Item value="Show`0" priority="2" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="IsVisible" priority="0" />
+      <Item value="IsActive" priority="1" />
+      <Item value="IsEnabled" priority="0" />
+      <Item value="CurrentWord" priority="0" />
+      <Item value="wordTab1" priority="4" />
+      <Item value="init`0" priority="0" />
+      <Item value="Owner" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JetBrains.ReSharper.Feature.Services.Xaml.CodeCompletion.XamlBasicCompletionContext">
+      <Item value="ctx" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.WordIterator">
+      <Item value="WordDictionary" priority="1" />
+      <Item value="initializeUI`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.FocusWords">
+      <Item value="WordDictionary" priority="0" />
+      <Item value="xdgFocusWords" priority="2" />
+      <Item value="windowWordATime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="Text" priority="13" />
+      <Item value="TextDecorations" priority="1" />
+      <Item value="TextEffects" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.WordPanel">
+      <Item value="setUI`0" priority="1" />
+      <Item value="BorderBrush" priority="1" />
+      <Item value="BorderThickness" priority="1" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.Search">
+      <Item value="setUI`0" priority="0" />
+      <Item value="setWord`0" priority="0" />
+      <Item value="setWords`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="Exit" priority="0" />
+      <Item value="Shutdown`0" priority="0" />
+      <Item value="Resources" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="Exit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WordListW.App">
+      <Item value="Current" priority="1" />
+      <Item value="ResourceAssembly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Xceed.Wpf.DataGrid.DataRow">
+      <Item value="Cells" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.WordTab">
+      <Item value="CurrentWord" priority="3" />
+      <Item value="AddChild`0" priority="0" />
+      <Item value="Resources" priority="0" />
+      <Item value="WordDictionary" priority="2" />
+      <Item value="WordList" priority="0" />
+      <Item value="setText`0" priority="3" />
+      <Item value="initializeBackend`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="ItemsSource" priority="0" />
+      <Item value="SelectedIndex" priority="0" />
+      <Item value="SelectedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Core.WordListIterator">
+      <Item value="setInit`0" priority="2" />
+      <Item value="First`0" priority="0" />
+      <Item value="currentWord`0" priority="0" />
+      <Item value="Current" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.HomoPhone">
+      <Item value="initializeUI`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Dao.HomonymDao">
+      <Item value="getHomonymsForWord`0" priority="1" />
+      <Item value="getAllHomonymSet`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.LinkButton">
+      <Item value="Content" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Dao.SynonymDao">
+      <Item value="getSynonymsForWord`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Dao.CsvSetDao">
+      <Item value="getSynonymSet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Core.WordRelation">
+      <Item value="getSynonymsForWord`0" priority="1" />
+      <Item value="getSynonymsWordListSet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.StackPanel">
+      <Item value="Children" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.UIElementCollection">
+      <Item value="Add`0" priority="1" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="RemoveRange`0" priority="3" />
+      <Item value="Count" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="Content" priority="2" />
+      <Item value="Resources" priority="0" />
+      <Item value="Style" priority="2" />
+      <Item value="Click" priority="0" />
+      <Item value="FontWeight" priority="1" />
+      <Item value="FontStyle" priority="1" />
+      <Item value="FontFamily" priority="1" />
+      <Item value="FontSize" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Style">
+      <Item value="TargetType" priority="0" />
+      <Item value="Setters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.SetterBaseCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.TextDecorationCollection">
+      <Item value="SetValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Window">
+      <Item value="Closing" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.DataGridColumn">
+      <Item value="SetValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataGridTester2.Grid2">
+      <Item value="ShouldSerializeCommandBindings`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Controls.DataGridSelectionUnit">
+      <Item value="FullRow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Core.WDictionary">
+      <Item value="getWordForName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.KeyEventArgs">
+      <Item value="Key" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WordListW.Controls.AutoCompleteTextBox">
+      <Item value="ItemsSource" priority="0" />
+      <Item value="autoTextBox" priority="0" />
+      <Item value="Parent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.HashSet`1">
+      <Item value="AsEnumerable`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Input.Key">
+      <Item value="Enter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DBNull">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DBNull">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:LinkButton.xaml" caret="475" fromTop="3" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:LinkButton.xaml.cs" caret="511" fromTop="8" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Resources/f:GlassButton.xaml" caret="10729" fromTop="4" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Core/f:WordRelation.cs" caret="4906" fromTop="16" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/f:WordATime.xaml.cs" caret="651" fromTop="15" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Core/f:Word.cs" caret="3072" fromTop="22" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/f:MainWindow.xaml" caret="10603" fromTop="2" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/f:WordATime.xaml" caret="725" fromTop="5" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordTab.xaml.cs" caret="1582" fromTop="19" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordTab.xaml" caret="3378" fromTop="3" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordAdmin.xaml" caret="532" fromTop="3" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Core/f:WordListIterator.cs" caret="940" fromTop="19" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:FocusWords.xaml" caret="2613" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:HomoPhone.xaml.cs" caret="0" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:FocusWords.xaml.cs" caret="6385" fromTop="14" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Core/f:WDictionary.cs" caret="867" fromTop="10" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordPanelOnly.xaml.cs" caret="0" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordPanelOnly.xaml" caret="977" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordPanel.xaml" caret="837" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordPanel.xaml.cs" caret="980" fromTop="17" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordIterator.xaml" caret="2747" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:WordIterator.xaml.cs" caret="2536" fromTop="7" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/f:MainWindow.xaml.cs" caret="2050" fromTop="12" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Core/f:AvailableWords.cs" caret="1142" fromTop="13" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Utils/f:DbUtils.cs" caret="4466" fromTop="21" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="5485" fromTop="12" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:AutoCompleteTextBox.xaml" caret="587" fromTop="2" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="4056" fromTop="13" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:AutoCompleteTextBox.xaml.cs" caret="2635" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml" caret="1184" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:AutoCompleteTextBox.xaml.cs" caret="1244" fromTop="17" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="2839" fromTop="12" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:AutoCompleteTextBox.xaml.cs" caret="2041" fromTop="21" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:AutoCompleteTextBox.xaml.cs" caret="2820" fromTop="12" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="892" fromTop="18" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="1103" fromTop="15" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="2918" fromTop="19" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="4986" fromTop="22" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="4056" fromTop="17" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="5717" fromTop="20" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Core/f:AvailableWords.cs" caret="3272" fromTop="15" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="3540" fromTop="11" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="3903" fromTop="16" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml" caret="1947" fromTop="2" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:AutoCompleteTextBox.xaml.cs" caret="6531" fromTop="9" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:AutoCompleteTextBox.xaml.cs" caret="562" fromTop="0" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml" caret="1225" fromTop="1" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Controls/f:Search.xaml.cs" caret="4221" fromTop="13" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="6069" fromTop="15" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="6069" fromTop="18" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="6069" fromTop="14" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="6069" fromTop="7" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="6069" fromTop="11" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="6069" fromTop="22" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="5773" fromTop="10" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="5921" fromTop="13" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="6032" fromTop="19" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="5673" fromTop="23" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="5775" fromTop="22" />
+      <File id="0B200CFD-DE16-4735-93A9-960D5757A72C/d:Dao/f:WordDaoImpl.cs" caret="5485" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

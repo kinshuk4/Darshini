@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="WordListW.Controls.WordAdmin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        
+        <StackPanel Name="stkAll"  Orientation="Vertical">
+            <StackPanel Name="stkWord" Orientation="Horizontal">
+                
+            </StackPanel>
+            <StackPanel Name="stkMeaning" Orientation="Horizontal">
+
+            </StackPanel>
+            <StackPanel Name="stkSynonym" Orientation="Horizontal">
+
+            </StackPanel>
+            <StackPanel Name="stkAntonym" Orientation="Horizontal">
+
+            </StackPanel>
+            <StackPanel Name="stkHomonym" Orientation="Horizontal">
+
+            </StackPanel>
+            <StackPanel Name="stkWordUsage" Orientation="Horizontal">
+
+            </StackPanel>
+            <StackPanel Name="stkOther" Orientation="Horizontal">
+
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

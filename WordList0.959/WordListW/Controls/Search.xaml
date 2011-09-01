@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WordListW.Controls.Search"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="600" xmlns:my="clr-namespace:WordListW.Controls">
+    <Grid Name="gridSearch">
+        <StackPanel Orientation="Horizontal" >
+            <StackPanel Orientation="Vertical" Width="320">
+                <TextBlock Text="does not exist." Height="38" HorizontalAlignment="Left"  Name="lblTryAgain" VerticalAlignment="Top" Width="228" Foreground="#FFFF1119" FontSize="14" Visibility="Hidden" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                <StackPanel Orientation="Horizontal"  Height="40">
+                    
+                    
+                                    <Label Content="Search" Width="58" Height="30" Name="lblSearch" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <my:AutoCompleteTextBox x:Name="tbxAutoComplete" Width="200" KeyDown="tbxAutoComplete_KeyDown" />
+                    <Button Content="Find" Height="23" Name="btnFind" Width="47" Click="btnFind_Click" Grid.Column="1" />
+<!--                    <TextBox Height="20" Width="184" HorizontalAlignment="Left"  Name="txtSearch" VerticalAlignment="Top"   KeyDown="txtSearch_KeyDown" TextChanged="txtSearch_TextChanged"  />-->
+<!--                    <TextBlock Name="tblkSpace" Text="bh" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Hidden"/>-->
+<!--               -->
+<!--                    <Button Content="Find" Height="23" HorizontalAlignment="Left"  Name="btnFind" VerticalAlignment="Top" Width="47" Click="btnFind_Click" Grid.Column="1" />-->
+                </StackPanel>
+<!--                <ListBox x:Name="lbxSuggestions" SelectionChanged="lbxSuggestions_SelectionChanged" Background="LightCoral" Visibility="Collapsed" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="516" Width="269" />-->
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical"  Name="stkWordDefinition" >
+            <my:WordPanel BorderBrush="Aqua" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" x:Name="wordPanel1" VerticalAlignment="Top" Width="0"  Height="0" Visibility="Hidden"  />
+        </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

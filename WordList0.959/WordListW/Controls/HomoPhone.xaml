@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="WordListW.Controls.HomoPhone"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:xcdg="clr-namespace:Xceed.Wpf.DataGrid;assembly=Xceed.Wpf.DataGrid.v4.0" mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="600">
+    <Grid>
+        
+        <xcdg:DataGridControl x:Name="xdgHomoPhones" Grid.ColumnSpan="2" Margin="0,73,245,0" Width="500" Height="300" AutoCreateColumns="True"   AllowDrag="False" AllowDrop="False"      >
+         
+
+        </xcdg:DataGridControl>
+        <TextBlock Height="49" HorizontalAlignment="Left" Margin="12,12,0,0" Name="tbHomoPhone" Text="Homophone for word:" VerticalAlignment="Top" Width="488" Foreground="#FF001C00" FontWeight="Bold" FontSize="16" />
+    </Grid>
+</UserControl>

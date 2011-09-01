@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="WordListW.Controls.WordIterator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="600">
+    <UserControl.Resources>
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="..\Resources\GlassButton.xaml"/>
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid Name="gridOneWordAtTime" Background="#FF6C1D1D"  Opacity="0.8">
+
+        <TextBlock Height="50" HorizontalAlignment="Left" Margin="30,88,0,0" Name="txtWord" VerticalAlignment="Top" Width="200" FontSize="24" FontWeight="Bold" Grid.ColumnSpan="2" Foreground="#FFF6F2FA" Background="#FF247DDD" />
+
+        <TextBox Height="85" HorizontalAlignment="Left" Margin="33,187,0,0" Name="txtNote" VerticalAlignment="Top" Width="200" TextChanged="txtNote_TextChanged" TextWrapping="Wrap"/>
+        <Label Content="Word" Height="28" HorizontalAlignment="Left" Margin="33,54,0,0" Name="lblWord" VerticalAlignment="Top" Width="78" Foreground="#FFF5E9F1" FontSize="16" />
+        <Label Content="Additional Notes" Height="37" HorizontalAlignment="Left" Margin="30,154,0,0" Name="lblAdditionalInfo" VerticalAlignment="Top" FontSize="16" Width="138"  Foreground="#FFEAD2D2" />
+
+
+        <Label Content="No. of Words : " Height="28" HorizontalAlignment="Left" Margin="33,286,0,0" Name="lblNoOfWords" VerticalAlignment="Top" Width="192" Visibility="Visible" DataContext="34" Foreground="#FFEEDCDC" FontSize="14" />
+        <Label Content="Words to Master : " Height="28" HorizontalAlignment="Left" Margin="33,320,0,0" Name="lblWords2Master" VerticalAlignment="Top" Width="192" Visibility="Visible" DataContext="34" Foreground="#FFEEDCDC" FontSize="14" />
+        <Label Content="Words Mastered : " Height="28" HorizontalAlignment="Left" Margin="33,354,0,0" Name="lblWordsMastered" VerticalAlignment="Top" Width="192" Visibility="Visible" DataContext="34" Foreground="#FFEEDCDC" FontSize="14" />
+        <Label Content="Sentence" Height="28" HorizontalAlignment="Left" Margin="315,197,0,0" Name="lblSentence" VerticalAlignment="Top" Width="140" Foreground="#FFFFF5F5" />
+        <Label Content="Meaning" Height="38" HorizontalAlignment="Left" Margin="315,34,0,0" Name="lblMeaning" VerticalAlignment="Top" Width="121" Foreground="#FFEFE2E2" FontSize="16" />
+        <TextBlock Height="103" HorizontalAlignment="Left" Margin="315,77,0,0" Name="txtMeaning" VerticalAlignment="Top" Width="250" FontSize="16" Foreground="#FFF5F9FF" FontWeight="Bold" FontStyle="Normal" TextWrapping="WrapWithOverflow" Background="#FF488FD9" />
+        <TextBlock Height="52" HorizontalAlignment="Left" Margin="315,220,0,0" Name="tblSentence" Text="TextBlock" VerticalAlignment="Top" Width="250" FontSize="14" Foreground="White" Background="#FF0099D7" FontStyle="Italic" TextWrapping="Wrap" />
+
+        <Button  Height="25" Width="30" HorizontalAlignment="Left" Margin="315,320,0,0" Name="btnFirst" VerticalAlignment="Top"  IsEnabled="False" Style="{StaticResource GlassButton}" Click="btnFirst_Click">
+            <Image Width="18" Height="18" Source="/WordListW;component/Images/rw.png"/>
+        </Button>
+        <Button  Height="25" Width="30" HorizontalAlignment="Left" Margin="390,320,0,0" Name="btnBack" VerticalAlignment="Top"  Style="{StaticResource GlassButton}" IsEnabled="False" Click="btnBack_Click" >
+            <Image Source="/WordListW;component/Images/rw1.png" Width="18" Height="18"   />
+        </Button>
+        <Button  Height="25"  Width="30" HorizontalAlignment="Left" Margin="465,320,110,0" Name="btnForward" VerticalAlignment="Top" Style="{StaticResource GlassButton}" Click="btnForward_Click" >
+            <Image Source="/WordListW;component/Images/f.png" Width="18" Height="18"   />
+        </Button>
+
+        <Button Height="25" Width="30" HorizontalAlignment="Left" Margin="535,320,0,0" Name="btnLast" VerticalAlignment="Top"  Style="{StaticResource GlassButton}" Click="btnLast_Click" >
+            <Image Source="/WordListW;component/Images/ff.png" Width="18" Height="18"   />
+        </Button>
+        <CheckBox Content="Mark Word as Mastered" Height="16" HorizontalAlignment="Left" Margin="315,366,0,0" Name="chkBxIsMastered" VerticalAlignment="Top" Checked="chkBxIsMastered_Checked" Foreground="#FFDEFFFA" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="33,25,0,0" Name="cbxListSelector" VerticalAlignment="Top" Width="120" SelectionChanged="cbxListSelector_SelectionChanged"/>
+    </Grid>
+</UserControl>

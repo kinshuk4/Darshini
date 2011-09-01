@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WordListW.Controls.WordPanelOnly"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <TextBlock Height="40" HorizontalAlignment="Left" Margin="25,25,0,0" Name="tbkWord" Text="TextBlock" VerticalAlignment="Top" Width="124" FontFamily="Miriam" FontSize="18" FontWeight="Bold" Foreground="#FF0000DB" />
+            </StackPanel>
+            
+            <TextBlock Height="35" Margin="25,92,6,173" Name="tbkMeaning" Text="Meaning"  HorizontalAlignment="Left" Width="250"  FontFamily="Times New Roman" FontSize="14" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="25,151,0,0" Name="tbkSentence" Text="Sentence" VerticalAlignment="Top" Width="259" FontSize="14" FontStyle="Italic" />
+           
+        </Grid>
+    </Grid>
+</UserControl>

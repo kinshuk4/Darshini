@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="WordListW.Controls.WordTab"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="400" xmlns:my="clr-namespace:WordListW.Controls">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\Resources\GlassButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" Height="87">
+            <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" >
+                <TextBlock x:Name="tblkWord" Width="166" Height="48" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Foreground="#FF551E1E" FontWeight="Bold" FontStyle="Italic"></TextBlock>
+                <Button  Height="30" Width="30" HorizontalAlignment="Left"  Name="btnFirst" VerticalAlignment="Top"  IsEnabled="False" Style="{StaticResource GlassButton}" Click="btnFirst_Click"   Margin="4" Background="Black">
+                    <Image Width="18" Height="18" Source="/WordListW;component/Images/rw.png"/>
+                </Button>
+                <Button  Height="30" Width="30" HorizontalAlignment="Left" Name="btnBack" VerticalAlignment="Top"  Style="{StaticResource GlassButton}" IsEnabled="False" Click="btnBack_Click"  Margin="4" Background="Black">
+                    <Image Source="/WordListW;component/Images/rw1.png" Width="18" Height="18"   />
+                </Button>
+                <Button  Height="30"  Width="30" HorizontalAlignment="Left"  Name="btnForward" VerticalAlignment="Top" Style="{StaticResource GlassButton}" Click="btnForward_Click"  Margin="4" Background="Black">
+                    <Image Source="/WordListW;component/Images/f.png" Width="18" Height="18"   />
+                </Button>
+
+                <Button Height="30" Width="30" HorizontalAlignment="Left" Name="btnLast" VerticalAlignment="Top"  Style="{StaticResource GlassButton}" Click="btnLast_Click"  Margin="4" Background="Black">
+                    <Image Source="/WordListW;component/Images/ff.png" Width="18" Height="18"  />
+                </Button>
+                <Button Style="{StaticResource GlassButton}" Height="30" Width="30" Background="Black"  Margin="4" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Image Width="18" Height="18" Source="/WordListW;component/Images/redSpeaker.png"/>
+                </Button>
+            </StackPanel>
+            <Label Name="lblMessage" Foreground="RoyalBlue" Height="40"></Label>
+
+            <Separator Height="63" VerticalAlignment="Top">
+                <Separator.LayoutTransform>
+                    <RotateTransform
+           />
+                </Separator.LayoutTransform>
+            </Separator>
+
+        </StackPanel>
+
+        <TabControl TabStripPlacement="Bottom" VerticalAlignment="Bottom">
+            <TabItem Header="Meaning">
+                <StackPanel Name="stkMeaning" Orientation="Horizontal" Height="130" >
+
+                    <TextBlock Name="tbMeaning" Foreground="RoyalBlue" FontSize="16" FontStyle="Italic" TextWrapping="Wrap"></TextBlock>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Usage">
+
+            </TabItem>
+            <TabItem Header="Synonyms">
+                <StackPanel Name="stackSynonym" Orientation="Horizontal" Height="130" >
+
+
+                </StackPanel>
+
+            </TabItem>
+
+            <TabItem Header="Antonyms">
+                <Grid Name="gridWordUsage">
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Homonyms">
+                <Grid Name="gridHomonym">
+                    <my:HomoPhone HorizontalAlignment="Left" Margin="95,374,0,0" x:Name="homoPhone1" VerticalAlignment="Bottom" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Other">
+
+            </TabItem>
+        </TabControl>
+        <Button x:Name="alfa" Style="{StaticResource LinkButton}" Content ="beta" Width="30" Height="20" Visibility="Hidden" IsEnabled="False" FontWeight="Bold" FontStyle="Italic" FontSize="20"></Button>
+    </Grid>
+</UserControl>

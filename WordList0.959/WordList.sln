@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordListW", "WordListW\WordListW.csproj", "{0B200CFD-DE16-4735-93A9-960D5757A72C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DarshiniSoft", "DarshiniSoft\DarshiniSoft.vdproj", "{F8B20B91-E3F6-46B1-BDA4-F3A0D4023DD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x86 = Debug|x86
+		DVD-5|x86 = DVD-5|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.CD_ROM|x86.ActiveCfg = Release|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.CD_ROM|x86.Build.0 = Release|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.Debug|x86.ActiveCfg = Debug|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.Debug|x86.Build.0 = Debug|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.DVD-5|x86.ActiveCfg = Debug|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.DVD-5|x86.Build.0 = Debug|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.Release|x86.ActiveCfg = Release|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.Release|x86.Build.0 = Release|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.SingleImage|x86.ActiveCfg = Release|x86
+		{0B200CFD-DE16-4735-93A9-960D5757A72C}.SingleImage|x86.Build.0 = Release|x86
+		{F8B20B91-E3F6-46B1-BDA4-F3A0D4023DD1}.CD_ROM|x86.ActiveCfg = Release
+		{F8B20B91-E3F6-46B1-BDA4-F3A0D4023DD1}.Debug|x86.ActiveCfg = Debug
+		{F8B20B91-E3F6-46B1-BDA4-F3A0D4023DD1}.DVD-5|x86.ActiveCfg = Debug
+		{F8B20B91-E3F6-46B1-BDA4-F3A0D4023DD1}.Release|x86.ActiveCfg = Release
+		{F8B20B91-E3F6-46B1-BDA4-F3A0D4023DD1}.SingleImage|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
